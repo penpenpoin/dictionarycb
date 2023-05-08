@@ -5,7 +5,7 @@ url = "https://dictionary.cambridge.org/ja/dictionary/english/"
 headers_dic = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"}
 
 word = input("Enter an English word")
-words = word.split()
+words = word.split() ##空欄で単語を区切る
 for word in words:
 	wurl = url + word
 
