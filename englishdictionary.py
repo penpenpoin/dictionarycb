@@ -18,3 +18,4 @@ for word in words:
 		print("something went wrong")
 		continue
 	print(tests.text)
+	print("")
